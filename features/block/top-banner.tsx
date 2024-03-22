@@ -141,7 +141,7 @@ export const IndexBanner = () => {
                     rawValue={true}
                     to={`https://longbridge.feishu.cn/share/base/form/shrcnnAhb5g9S5xhFdXQnqNwoqc?lang=${i18n.i18n.language}`}
                   >
-                    <Button size="medium">欢迎报名</Button>
+                    <Button size="medium">{i18n.t('pages_locale_product_portai_891143')}</Button>
                   </LocaleLink>
                 </div>
               </>
