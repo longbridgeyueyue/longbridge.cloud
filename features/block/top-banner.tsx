@@ -129,11 +129,11 @@ export const IndexBanner = () => {
             left={
               <>
                 <div className="mb-3 text-3xl text-left text-text_color_3_supplement">
-                  <div className="md:whitespace-nowrap">Zero to One: Security as a Service</div>
-                  <div>{i18n.t('pages_locale_product_portai_891141')}</div>
+                  <div>Zero to One</div>
+                  <div className="text-white text-[48px] leading-[68px] text-left">Security as a Service</div>
                 </div>
-                <div className="text-white text-[48px] leading-[68px] text-left">
-                  <div>{i18n.t('pages_locale_product_portai_891142')}</div>
+                <div className="text-3xl text-text_color_3_supplement">
+                  <div>{i18n.t('pages_locale_product_portai_891141')}</div>
                 </div>
                 <div className="flex space-x-4">
                   <LocaleLink
