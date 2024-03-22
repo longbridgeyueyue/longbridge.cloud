@@ -138,6 +138,7 @@ export const IndexBanner = () => {
                 <div className="flex space-x-4">
                   <LocaleLink
                     className="flex items-center mt-10"
+                    // @ts-ignore
                     rawValue={true}
                     to={`https://longbridge.feishu.cn/share/base/form/shrcnnAhb5g9S5xhFdXQnqNwoqc?lang=${i18n.i18n.language}`}
                   >
